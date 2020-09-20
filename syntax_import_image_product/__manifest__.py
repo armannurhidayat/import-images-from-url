@@ -7,10 +7,12 @@
     'description': "Import Images Product From URL",
     'author': "Arman Nur Hidayat",
     'website': "http://www.syntaxdev.com",
-    "images": ["static/logo/logo.png"],
+    "images": ["static/description/Logo.png"],
     'category': 'Stock',
     'version': '12.0.1',
     'depends': ['base','stock'],
+    "installable": True,
+    "development_status": "stable",
     'data': [
         'wizard/import_menu.xml',
     ],
